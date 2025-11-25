@@ -1,7 +1,7 @@
 import { Motion } from "../components/animation-provider"
 import { Helmet } from "react-helmet-async"
 import MatrixBackground from "../components/MatrixBackground"
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
@@ -97,7 +97,7 @@ const Contact = () => {
               "@type": "Organization",
               "name": "Punk Records Creative Studio",
               "telephone": "+91-74477-76766",
-              "email": "Vansh.Rajak@punktech.in",
+              "email": "nahash.michael@punktech.in",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Nagpur",
@@ -194,7 +194,7 @@ const Contact = () => {
                 <div className="space-y-4">
                   <div>
                     <h3 className="text-lg font-semibold text-avocado-green mb-2">Email</h3>
-                    <p className="text-gray-300">Vansh.Rajak@punktech.in</p>
+                    <p className="text-gray-300">nahash.michael@punktech.in</p>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-avocado-green mb-2">Phone</h3>
@@ -203,12 +203,12 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-avocado-green mb-2">Instagram</h3>
                     <a 
-                      href="https://instagram.com/punk_record" 
+                      href="https://instagram.com/punk.records.nagpur" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-gray-300 hover:text-avocado-green transition-colors"
                     >
-                      @punk_record
+                      @punk.records.nagpur
                     </a>
                   </div>
                 </div>

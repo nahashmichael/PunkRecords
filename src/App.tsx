@@ -24,6 +24,9 @@ import Music from "./pages/services/Music"
 import PhotoVideo from "./pages/services/PhotoVideo"
 import GraphicsEditing from "./pages/services/GraphicsEditing"
 import SocialMarketing from "./pages/services/SocialMarketing"
+import WebApps from "./pages/services/web-dev/WebApps"
+import Software from "./pages/services/web-dev/Software"
+import ITSolutions from "./pages/services/web-dev/ITSolutions"
 
 // Performance optimization: Memoized route components
 const AppRoutes = () => {
@@ -36,6 +39,9 @@ const AppRoutes = () => {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/web-dev" element={<WebDev />} />
+          <Route path="/services/web-dev/webapps" element={<WebApps />} />
+          <Route path="/services/web-dev/software" element={<Software />} />
+          <Route path="/services/web-dev/it-solutions" element={<ITSolutions />} />
           <Route path="/services/photo-video" element={<PhotoVideo />} />
           <Route path="/services/graphics-editing" element={<GraphicsEditing />} />
           <Route path="/services/music" element={<Music />} />

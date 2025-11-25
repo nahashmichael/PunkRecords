@@ -113,7 +113,7 @@ const WebDev = () => {
         </script>
       </Helmet>
       
-      <div className="min-h-screen bg-gradient-to-br from-green-900 via-green-800 to-green-900 text-white relative pt-20">
+      <div className="min-h-screen bg-gradient-to-br from-green-900/80 via-green-800/60 to-green-900/80 text-white relative pt-20">
         {/* Hero Section */}
         <section className="relative z-10 py-20 px-4">
           <div className="max-w-7xl mx-auto text-center">

@@ -116,7 +116,7 @@ const GraphicsEditing = () => {
         </script>
       </Helmet>
       
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-purple-900 text-white relative pt-20">
+      <div className="min-h-screen bg-gradient-to-br from-purple-900/80 via-purple-800/60 to-purple-900/80 text-white relative pt-20">
         {/* Hero Section */}
         <section className="relative z-10 py-20 px-4">
           <div className="max-w-7xl mx-auto text-center">

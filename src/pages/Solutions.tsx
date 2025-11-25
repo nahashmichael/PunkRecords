@@ -10,8 +10,75 @@ import {
   MegaphoneIcon,
   ChartBarIcon,
   BuildingStorefrontIcon,
+  CodeBracketIcon,
+  PaintBrushIcon,
+  VideoCameraIcon,
 } from "@heroicons/react/24/outline"
 import FeatureCard from "../components/FeatureCard"
+
+// Service navigation data structure
+const serviceNavigation = [
+  {
+    id: 'web-dev',
+    name: 'Web Development',
+    path: '/services/web-dev',
+    icon: CodeBracketIcon,
+    color: 'green',
+    subServices: [
+      { name: 'Punk Software', path: '/services/web-dev/software', description: 'Custom software development solutions' },
+      { name: 'Punk Webapps', path: '/services/web-dev/webapps', description: 'Progressive web applications' },
+      { name: 'Punk IT Solutions', path: '/services/web-dev/it-solutions', description: 'Comprehensive IT consulting and solutions' },
+    ]
+  },
+  {
+    id: 'photo-video',
+    name: 'Photography & Videography',
+    path: '/services/photo-video',
+    icon: CameraIcon,
+    color: 'red',
+    subServices: [
+      { name: 'Punk Product', path: '/services/photo-video/product', description: 'Professional product photography services' },
+      { name: 'Punk Service', path: '/services/photo-video/service', description: 'Event and service photography' },
+      { name: 'Punk Weddings', path: '/services/photo-video/weddings', description: 'Wedding photography and videography' },
+    ]
+  },
+  {
+    id: 'graphics-editing',
+    name: 'Graphics & Editing',
+    path: '/services/graphics-editing',
+    icon: PaintBrushIcon,
+    color: 'purple',
+    subServices: [
+      { name: 'Punk Graphics', path: '/services/graphics-editing/graphics', description: 'Professional graphic design services' },
+      { name: 'Punk Editings', path: '/services/graphics-editing/editing', description: 'Video and photo editing services' },
+      { name: 'Punk Creation', path: '/services/graphics-editing/creation', description: '2D and 3D image creation' },
+    ]
+  },
+  {
+    id: 'music',
+    name: 'Music Production',
+    path: '/services/music',
+    icon: MusicalNoteIcon,
+    color: 'orange',
+    subServices: [
+      { name: 'Punk Production', path: '/services/music/production', description: 'Music production and recording services' },
+      { name: 'Punk Recordings', path: '/services/music/recordings', description: 'Professional recording studio services' },
+      { name: 'Punk Affiliations', path: '/services/music/affiliations', description: 'Artist development and partnerships' },
+    ]
+  },
+  {
+    id: 'social-marketing',
+    name: 'Social Media Marketing',
+    path: '/services/social-marketing',
+    icon: MegaphoneIcon,
+    color: 'blue',
+    subServices: [
+      { name: 'Punk Strategies', path: '/services/social-marketing/strategies', description: 'Digital marketing strategies and planning' },
+      { name: 'Punk Campaigns', path: '/services/social-marketing/campaigns', description: 'Social media and digital campaigns' },
+      { name: 'Punk Surveys', path: '/services/social-marketing/surveys', description: 'Market research and customer surveys' },
+    ]
+  },
+]
 
 const Solutions = () => {
   return (
@@ -53,6 +120,115 @@ const Solutions = () => {
                   </Link>
                 </Motion.div>
               </Motion.div>
+            </div>
+          </div>
+        </section>
+
+        {/* Explore Our Services Section */}
+        <section className="py-20 bg-avocado-gray">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Explore Our Services</h2>
+              <p className="text-avocado-text text-xl max-w-3xl mx-auto">
+                Discover our comprehensive range of creative services and specialized solutions tailored to your business needs.
+              </p>
+            </Motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {serviceNavigation.map((service, index) => {
+                const IconComponent = service.icon
+                const getColorClasses = (color: string) => {
+                  switch (color) {
+                    case 'green':
+                      return {
+                        border: 'border-green-500/30 hover:border-green-400/60',
+                        bg: 'bg-green-900/10',
+                        iconBg: 'bg-green-600/20',
+                        text: 'text-green-300',
+                      }
+                    case 'red':
+                      return {
+                        border: 'border-red-500/30 hover:border-red-400/60',
+                        bg: 'bg-red-900/10',
+                        iconBg: 'bg-red-600/20',
+                        text: 'text-red-300',
+                      }
+                    case 'purple':
+                      return {
+                        border: 'border-purple-500/30 hover:border-purple-400/60',
+                        bg: 'bg-purple-900/10',
+                        iconBg: 'bg-purple-600/20',
+                        text: 'text-purple-300',
+                      }
+                    case 'orange':
+                      return {
+                        border: 'border-orange-500/30 hover:border-orange-400/60',
+                        bg: 'bg-orange-900/10',
+                        iconBg: 'bg-orange-600/20',
+                        text: 'text-orange-300',
+                      }
+                    case 'blue':
+                      return {
+                        border: 'border-blue-500/30 hover:border-blue-400/60',
+                        bg: 'bg-blue-900/10',
+                        iconBg: 'bg-blue-600/20',
+                        text: 'text-blue-300',
+                      }
+                    default:
+                      return {
+                        border: 'border-gray-500/30 hover:border-gray-400/60',
+                        bg: 'bg-gray-900/10',
+                        iconBg: 'bg-gray-600/20',
+                        text: 'text-gray-300',
+                      }
+                  }
+                }
+                const colors = getColorClasses(service.color)
+                
+                return (
+                  <Motion.div
+                    key={service.id}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                    className={`bg-avocado-dark p-6 rounded-lg border ${colors.border} ${colors.bg} transition-all duration-300 hover:transform hover:scale-105`}
+                  >
+                    <div className="flex items-center mb-4">
+                      <div className={`p-3 rounded-lg ${colors.iconBg} mr-4`}>
+                        <IconComponent className={`w-6 h-6 ${colors.text}`} />
+                      </div>
+                      <Link 
+                        to={service.path}
+                        className={`text-xl font-bold ${colors.text} hover:underline`}
+                      >
+                        {service.name}
+                      </Link>
+                    </div>
+                    <p className="text-avocado-text text-sm mb-4">
+                      Explore our specialized {service.name.toLowerCase()} services
+                    </p>
+                    <div className="space-y-2">
+                      {service.subServices.map((subService) => (
+                        <Link
+                          key={subService.path}
+                          to={subService.path}
+                          className="block text-avocado-text hover:text-white text-sm py-2 px-3 rounded-md hover:bg-avocado-gray transition-colors duration-200"
+                        >
+                          <span className="font-semibold">{subService.name}</span>
+                          <span className="text-xs ml-2 opacity-75">→</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </Motion.div>
+                )
+              })}
             </div>
           </div>
         </section>
