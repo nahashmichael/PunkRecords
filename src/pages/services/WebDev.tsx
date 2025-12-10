@@ -101,7 +101,7 @@ const WebDev = () => {
                 "addressCountry": "IN"
               },
               "telephone": "+91-74477-76766",
-              "email": "Vansh.Rajak@punktech.in"
+              "email": "Keshav.Paliwal@punktech.in"
             },
             "areaServed": {
               "@type": "Place",

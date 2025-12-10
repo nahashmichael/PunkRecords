@@ -59,31 +59,24 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Wedding Photography | Music Studio | Web Development | Punk Records Nagpur</title>
-        <meta name="description" content="Contact Punk Records Creative Studio in Nagpur for wedding photography, music recording, web development, digital marketing, and graphic design services. Call +91-74477-76766 or email Vansh.Rajak@punktech.in" />
-        <meta name="keywords" content="contact wedding photographer nagpur, contact music studio nagpur, contact web developer nagpur, contact digital marketing agency nagpur, contact graphic designer nagpur, punk records contact, punktech contact, wedding photography consultation nagpur, music recording consultation, web development consultation, get quote wedding photography, get quote music recording, get quote web development, hire wedding photographer nagpur, hire music producer nagpur, hire web developer nagpur, book wedding photographer, book music studio, book web development service, creative services consultation nagpur, digital services consultation, contact creative agency nagpur, contact punktech studio, vansh rajak contact, sahil singh contact, yuvi durgesh contact, nahash michael contact, shivani michael contact, civil lines nagpur contact, sitabuldi nagpur contact, dharampeth nagpur contact, sadar nagpur contact, itwari nagpur contact, kamptee contact, hingna contact, katol contact" />
+        <title>Contact Us - Wedding Photography | Music Studio | Web Development | Punk Records India</title>
+        <meta name="description" content="Contact Punk Records Creative Studio for wedding photography, music recording, web development, digital marketing, and graphic design services across India. Call +91-74477-76766 or email Keshav.Paliwal@punktech.in" />
+        <meta name="keywords" content="contact wedding photographer india, contact music studio india, contact web developer india, contact digital marketing agency india, contact graphic designer india, punk records contact, punktech contact, wedding photography consultation india, music recording consultation, web development consultation, get quote wedding photography, get quote music recording, get quote web development, hire wedding photographer india, hire music producer india, hire web developer india, book wedding photographer, book music studio, book web development service, creative services consultation india, digital services consultation, contact creative agency india, contact punktech studio"
+        />
         
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Contact Punk Records - Wedding Photography | Music Studio | Web Development Nagpur" />
-        <meta property="og:description" content="Get in touch with Nagpur's premier creative studio for wedding photography, music production, and digital services." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://punktech.in/contact" />
-        <meta property="og:image" content="https://punktech.in/contact-hero.jpg" />
-        <meta property="og:site_name" content="Punk Records Creative Studio" />
-        <meta property="og:locale" content="en_IN" />
+        <meta property="og:title" content="Contact Punk Records - Wedding Photography | Music Studio | Web Development India" />
+        <meta property="og:description" content="Get in touch with India's premier creative studio for wedding photography, music production, and digital services." />
+        {/* ... rest of og tags ... */}
         
         {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@punktechstudio" />
-        <meta name="twitter:title" content="Contact Punk Records Creative Studio Nagpur" />
-        <meta name="twitter:description" content="Get in touch for wedding photography, music production, and creative services" />
-        <meta name="twitter:image" content="https://punktech.in/contact-hero.jpg" />
+        <meta name="twitter:title" content="Contact Punk Records Creative Studio India" />
+        {/* ... rest of twitter tags ... */}
         
         {/* Additional SEO Meta Tags */}
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="geo.region" content="IN-MH" />
-        <meta name="geo.placename" content="Nagpur" />
-        <link rel="canonical" href="https://punktech.in/contact" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
         
         {/* Structured Data for Contact Page */}
         <script type="application/ld+json">
@@ -91,7 +84,7 @@ const Contact = () => {
             "@context": "https://schema.org",
             "@type": "ContactPage",
             "name": "Contact Punk Records Creative Studio",
-            "description": "Contact page for Punk Records Creative Studio offering wedding photography, music production, web development, and digital services in Nagpur.",
+            "description": "Contact page for Punk Records Creative Studio offering wedding photography, music production, web development, and digital services in India.",
             "url": "https://punktech.in/contact",
             "mainEntity": {
               "@type": "Organization",
@@ -169,24 +162,28 @@ const Contact = () => {
                 <h2 className="text-3xl font-bold mb-6 text-white">Our Team</h2>
                 <div className="space-y-4">
                   <div>
-                    <h3 className="text-lg font-semibold text-avocado-green mb-2">Sahil Singh</h3>
+                    <h3 className="text-lg font-semibold text-avocado-green mb-2">
+                      Swaraj Dhakate <span className="text-2xl md:text-3xl font-black tracking-wider text-avocado-light-green ml-2 font-mono uppercase">(Pythagoras)</span>
+                    </h3>
                     <p className="text-gray-300">Creative Director 1 (Editing and Content Creation)</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-avocado-green mb-2">Yuvi (Durgesh) Sahib</h3>
+                    <h3 className="text-lg font-semibold text-avocado-green mb-2">
+                      Yuvi (Durgesh) Sahib <span className="text-2xl md:text-3xl font-black tracking-wider text-avocado-light-green ml-2 font-mono uppercase">(Shaka)</span>
+                    </h3>
                     <p className="text-gray-300">Creative Director 2 (Photography and Videography)</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-avocado-green mb-2">Nahash Michael</h3>
+                    <h3 className="text-lg font-semibold text-avocado-green mb-2">
+                      Nahash Michael <span className="text-2xl md:text-3xl font-black tracking-wider text-avocado-light-green ml-2 font-mono uppercase">(Stellar)</span>
+                    </h3>
                     <p className="text-gray-300">Creative Director 3 (Music Production, Web Development and Client Engagement)</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-avocado-green mb-2">Shivani Michael</h3>
-                    <p className="text-gray-300">Head of Communication and Talent Acquisition</p>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-avocado-green mb-2">Vansh Rajak</h3>
-                    <p className="text-gray-300">Senior Client Coordinator</p>
+                    <h3 className="text-lg font-semibold text-avocado-green mb-2">
+                      Keshav Paliwal <span className="text-2xl md:text-3xl font-black tracking-wider text-avocado-light-green ml-2 font-mono uppercase">(Atlas)</span>
+                    </h3>
+                    <p className="text-gray-300">Script Writer, Screenplay Writer, Lyricist & Story Writer</p>
                   </div>
                 </div>
 
@@ -203,12 +200,12 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-avocado-green mb-2">Instagram</h3>
                     <a 
-                      href="https://instagram.com/punk.records.nagpur" 
+                      href="https://instagram.com/punkr.ecords" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-gray-300 hover:text-avocado-green transition-colors"
                     >
-                      @punk.records.nagpur
+                      @punkr.ecords
                     </a>
                   </div>
                 </div>

@@ -11,6 +11,7 @@ const projects = [
       "Booking funnel with lead scoring and instant notifications",
       "Multi-city service catalogue with testimonial carousels",
     ],
+    videoSrc: "/assets/videos/safaiwalay_intro.mp4",
   },
   {
     name: "Punktech",
@@ -160,15 +161,31 @@ const WebApps = () => {
                   className="order-first lg:order-none"
                 >
                   <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-emerald-600/30 to-green-900/40 shadow-2xl overflow-hidden">
-                    <img
-                      src={getPreviewUrl(project.url)}
-                      alt={`${project.name} preview`}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                    <div className="absolute bottom-4 right-4 bg-black/60 backdrop-blur px-4 py-2 rounded-full text-xs tracking-[0.3em] text-white/80">
-                      LIVE PREVIEW
-                    </div>
+                    {project.videoSrc ? (
+                      <video
+                        src={project.videoSrc}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        disablePictureInPicture
+                        controlsList="nodownload nofullscreen noremoteplayback"
+                        className="w-full h-full object-cover"
+                        style={{ pointerEvents: 'none' }}
+                      />
+                    ) : (
+                      <>
+                        <img
+                          src={getPreviewUrl(project.url)}
+                          alt={`${project.name} preview`}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                        <div className="absolute bottom-4 right-4 bg-black/60 backdrop-blur px-4 py-2 rounded-full text-xs tracking-[0.3em] text-white/80">
+                          LIVE PREVIEW
+                        </div>
+                      </>
+                    )}
                   </div>
                 </Motion.div>
               </div>

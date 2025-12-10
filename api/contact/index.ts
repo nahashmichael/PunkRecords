@@ -111,7 +111,7 @@ User Agent: ${userAgent}`;
 
             const emailResult = await resend.emails.send({
                 from: "Punk Records <contact@punktech.in>",
-                to: ["Vansh.Rajak@punktech.in"],
+                to: ["Keshav.Paliwal@punktech.in"],
                 subject: `New Contact Form Submission`,
                 text: emailContent,
                 reply_to: email

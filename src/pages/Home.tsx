@@ -144,15 +144,15 @@ const Home = () => {
       ]
     },
     default: {
-      title: "WEDDING PHOTOGRAPHY STUDIO & CREATIVE SERVICES",
-      subtitle: "Your Dream Wedding Captured Perfectly",
-      description: "Nagpur's premier wedding photography and videography studio. We specialize in capturing your special moments with cinematic excellence, while also offering comprehensive creative services including web development, music production, and digital marketing.",
-      heroImage: "/photography-videography-1.png",
+      title: "CONTENT CREATION & PRODUCTION STUDIO",
+      subtitle: "Integrated Creative Solutions for Modern Brands",
+      description: "Punk Records is an integrated solutions company specializing in content creation, production, and digital innovation. We combine creative excellence with technical expertise to deliver comprehensive solutions including video production, photography, web development, music production, graphic design, and digital marketing. From concept to execution, we transform ideas into compelling content that drives engagement and business growth.",
+      heroImage: "/creative-agency-workspace.png",
       features: [
-        { icon: <CameraIcon className="w-8 h-8 text-white" />, title: "Wedding Photography & Videography", description: "Professional wedding photography and cinematic videography services capturing every precious moment of your special day with artistic excellence.", color: "bg-rose-500" },
-        { icon: <VideoCameraIcon className="w-8 h-8 text-white" />, title: "Pre-Wedding & Engagement Shoots", description: "Romantic pre-wedding photography and engagement sessions at beautiful locations with creative storytelling and artistic vision.", color: "bg-pink-500" },
-        { icon: <CodeBracketIcon className="w-8 h-8 text-white" />, title: "Web Development & Digital Solutions", description: "Custom wedding websites, online galleries, and digital solutions for couples and wedding businesses with modern design.", color: "bg-blue-500" },
-        { icon: <MusicalNoteIcon className="w-8 h-8 text-white" />, title: "Wedding Music & Audio Production", description: "Custom wedding music, audio editing for wedding films, and sound design services for your special celebrations.", color: "bg-purple-500" }
+        { icon: <VideoCameraIcon className="w-8 h-8 text-white" />, title: "Video Production & Content Creation", description: "Professional video production, cinematography, and content creation services for brands, businesses, and digital platforms.", color: "bg-blue-500" },
+        { icon: <CameraIcon className="w-8 h-8 text-white" />, title: "Photography & Visual Storytelling", description: "High-quality photography services including product photography, event coverage, and creative visual content.", color: "bg-purple-500" },
+        { icon: <CodeBracketIcon className="w-8 h-8 text-white" />, title: "Web Development & Digital Solutions", description: "Custom websites, web applications, and digital solutions built with modern technologies and best practices.", color: "bg-green-500" },
+        { icon: <MusicalNoteIcon className="w-8 h-8 text-white" />, title: "Music Production & Audio Design", description: "Professional music production, sound design, audio engineering, and recording studio services.", color: "bg-orange-500" }
       ]
     }
   }
@@ -162,23 +162,23 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Best Wedding Photography & Videography in Nagpur | Punk Records Creative Studio</title>
+        <title>Content Creation & Production Studio India | Integrated Creative Solutions | Punk Records</title>
         <meta
           name="description"
-          content="Premier wedding photography & videography studio in Nagpur. Professional wedding photographers capturing your special moments with cinematic excellence. Also offering web development, music production & creative services."
+          content="Integrated content creation and production studio offering comprehensive creative solutions across India including video production, photography, web development, music production, graphic design, and digital marketing. Full-service creative agency delivering end-to-end content solutions for brands and businesses."
         />
         <meta
           name="keywords"
-          content="wedding photographer nagpur, wedding photography nagpur, shaadi photographer nagpur, marriage photographer nagpur, wedding videographer nagpur, wedding videography nagpur, best wedding photographer nagpur, candid wedding photographer nagpur, pre wedding photographer nagpur, destination wedding photographer nagpur, shaadi ka photographer nagpur, vivah photographer nagpur, marriage ka photographer nagpur, dulhan photographer nagpur, dulha dulhan photographer nagpur, mangalashtak photographer nagpur, lagan photographer nagpur, byah photographer nagpur, mehendi photographer nagpur, haldi photographer nagpur, sangam photographer nagpur, engagement photographer nagpur, ring ceremony photographer nagpur, reception photographer nagpur, baraat photographer nagpur, vidai photographer nagpur, sagai photographer nagpur, tilak ceremony photographer nagpur, candid wedding photography nagpur, traditional wedding photography nagpur, cinematic wedding videography nagpur, documentary wedding photography nagpur, photojournalistic wedding photography nagpur, artistic wedding photography nagpur, vintage wedding photography nagpur, contemporary wedding photography nagpur, pre wedding photoshoot nagpur, couple photoshoot nagpur, maternity photoshoot nagpur, baby photoshoot nagpur, family portrait photographer nagpur, bridal photoshoot nagpur, groom photoshoot nagpur, save the date photoshoot nagpur, anniversary photoshoot nagpur, drone wedding photography nagpur, 4k wedding videography nagpur, same day edit wedding video nagpur, wedding highlight video nagpur, wedding album design nagpur, wedding photo editing nagpur, wedding video editing nagpur, outdoor wedding photographer nagpur, destination wedding photographer india, palace wedding photographer nagpur, garden wedding photographer nagpur, beach wedding photographer goa, hill station wedding photographer, resort wedding photographer nagpur, affordable wedding photographer nagpur, cheap wedding photographer nagpur, budget wedding photography nagpur, wedding photography packages nagpur, wedding photography price nagpur, low cost wedding photographer nagpur, music studio nagpur, recording studio nagpur, music production nagpur, sound recording nagpur, audio recording nagpur, music recording studio nagpur, professional recording studio nagpur, song recording nagpur, album recording nagpur, jingle recording nagpur, voice over recording nagpur, dubbing studio nagpur, mixing mastering studio nagpur, music composition nagpur, background music creation nagpur, sound design nagpur, audio post production nagpur, bollywood music recording nagpur, classical music recording nagpur, devotional music recording nagpur, folk music recording nagpur, marathi music recording nagpur, hindi song recording nagpur, instrumental music recording nagpur, professional music equipment nagpur, music production software nagpur, audio mixing console nagpur, studio monitors nagpur, microphone rental nagpur, singer recording studio nagpur, musician recording studio nagpur, band recording studio nagpur, artist recording studio nagpur, music producer nagpur, sound engineer nagpur, web development nagpur, website design nagpur, website development nagpur, web designer nagpur, web developer nagpur, website company nagpur, digital agency nagpur, ecommerce website development nagpur, responsive web design nagpur, mobile app development nagpur, custom website development nagpur, wordpress development nagpur, php development nagpur, react development nagpur, website maintenance nagpur, domain hosting nagpur, ssl certificate nagpur, business website design nagpur, corporate website development nagpur, startup website development nagpur, small business website nagpur, professional website design nagpur, company website development nagpur, online store development nagpur, shopping website development nagpur, payment gateway integration nagpur, inventory management system nagpur, pos system development nagpur, html css developer nagpur, javascript developer nagpur, python developer nagpur, node js developer nagpur, angular developer nagpur, vue js developer nagpur, graphic designer nagpur, graphic design services nagpur, logo design nagpur, branding design nagpur, creative design nagpur, visual design nagpur, logo design company nagpur, business card design nagpur, brochure design nagpur, flyer design nagpur, poster design nagpur, banner design nagpur, packaging design nagpur, label design nagpur, book cover design nagpur, magazine design nagpur, social media design nagpur, instagram post design nagpur, facebook cover design nagpur, youtube thumbnail design nagpur, website banner design nagpur, email template design nagpur, presentation design nagpur, visiting card design nagpur, letterhead design nagpur, invoice design nagpur, certificate design nagpur, id card design nagpur, menu design nagpur, catalogue design nagpur, brand identity design nagpur, corporate identity design nagpur, brand guidelines nagpur, brand strategy nagpur, rebranding services nagpur, digital marketing nagpur, social media marketing nagpur, seo services nagpur, online marketing nagpur, internet marketing nagpur, digital marketing agency nagpur, social media agency nagpur, facebook marketing nagpur, instagram marketing nagpur, youtube marketing nagpur, linkedin marketing nagpur, twitter marketing nagpur, whatsapp marketing nagpur, google ads nagpur, facebook ads nagpur, instagram ads nagpur, seo company nagpur, content marketing nagpur, email marketing nagpur, influencer marketing nagpur, affiliate marketing nagpur, ppc management nagpur, social media management nagpur, online reputation management nagpur, restaurant marketing nagpur, real estate marketing nagpur, healthcare marketing nagpur, education marketing nagpur, ecommerce marketing nagpur, startup marketing nagpur, local seo nagpur, google my business optimization nagpur, local business marketing nagpur, nagpur business promotion, maharashtra digital marketing, video production nagpur, video editing nagpur, videographer nagpur, commercial video production nagpur, corporate video production nagpur, promotional video nagpur, product video nagpur, explainer video nagpur, training video nagpur, documentary video nagpur, event videography nagpur, conference videography nagpur, youtube video editing nagpur, social media video nagpur, video post production nagpur, color grading nagpur, motion graphics nagpur, animation services nagpur, 3d animation nagpur, 2d animation nagpur, video compression nagpur, video streaming setup nagpur, wardha, chandrapur, gondia, bhandara, amravati, akola, yavatmal, gadchiroli, civil lines nagpur, sitabuldi nagpur, dharampeth nagpur, sadar nagpur, itwari nagpur, kamptee nagpur, hingna nagpur, katol nagpur, punktech, punk records"
+          content="content creation india, video production india, content production studio india, integrated solutions company india, creative agency india, video production company india, photography services india, web development india, music production india, graphic design india, digital marketing india, content creators india, production company india, creative studio india, video content creation india, social media content india, brand content creation india, corporate video production india, commercial photography india, product photography india, event photography india, website development india, music studio india, recording studio india, digital agency india, creative services india, content marketing india, video editing india, photo editing india, motion graphics india, animation services india, wedding photographer india, wedding photography india, shaadi photographer india, music studio india, recording studio india, music production india, web development india, website design india, digital marketing india, social media marketing india, graphic designer india, logo design india, video production india, video editing india, videographer india, mumbai, delhi, bangalore, hyderabad, chennai, pune, kolkata, ahmedabad, jaipur, punjab, haryana, rajasthan, gujarat, maharashtra, karnataka, tamil nadu, telangana, west bengal, punjab, punktech, punk records"
         />
-        <meta property="og:title" content="Best Wedding Photography & Videography in Nagpur | Punk Records Creative Studio" />
+        <meta property="og:title" content="Content Creation & Production Studio India | Punk Records Creative Studio" />
         <meta
           property="og:description"
-          content="Capture your dream wedding with Nagpur's premier wedding photography & videography studio. Cinematic storytelling meets artistic excellence for your special day."
+          content="Integrated creative solutions company specializing in content creation, video production, photography, web development, music production, and digital marketing. Full-service creative agency serving clients across India."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://punktech.in" />
-        <meta property="og:image" content="https://punktech.in/wedding-hero-image.jpg" />
+        <meta property="og:image" content="https://punktech.in/creative-studio-hero.jpg" />
         <meta property="og:site_name" content="Punk Records Creative Studio" />
         <meta property="og:locale" content="en_IN" />
         
@@ -186,16 +186,16 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@punktechstudio" />
         <meta name="twitter:creator" content="@punktechstudio" />
-        <meta name="twitter:title" content="Best Wedding Photography & Videography in Nagpur | Punk Records" />
-        <meta name="twitter:description" content="Capture your dream wedding with Nagpur's premier wedding photography & videography studio." />
-        <meta name="twitter:image" content="https://punktech.in/wedding-hero-image.jpg" />
+        <meta name="twitter:title" content="Content Creation & Production Studio India | Punk Records" />
+        <meta name="twitter:description" content="Integrated creative solutions company specializing in content creation, production, and digital innovation." />
+        <meta name="twitter:image" content="https://punktech.in/creative-studio-hero.jpg" />
         
         {/* Additional SEO Meta Tags */}
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow" />
         <meta name="bingbot" content="index, follow" />
-        <meta name="geo.region" content="IN-MH" />
-        <meta name="geo.placename" content="Nagpur" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
         <meta name="geo.position" content="21.1458;79.0882" />
         <meta name="ICBM" content="21.1458, 79.0882" />
         
@@ -208,7 +208,7 @@ const Home = () => {
             "alternateName": "PunkTech",
             "url": "https://punktech.in",
             "logo": "https://punktech.in/logo.png",
-            "description": "Premier wedding photography and videography studio in Nagpur offering cinematic wedding coverage, pre-wedding shoots, and creative digital services.",
+            "description": "Integrated content creation and production studio offering comprehensive creative solutions across India including video production, photography, web development, music production, graphic design, and digital marketing.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Nagpur",
@@ -219,11 +219,11 @@ const Home = () => {
               "@type": "ContactPoint",
               "telephone": "+91-74477-76766",
               "contactType": "customer service",
-              "email": "Vansh.Rajak@punktech.in",
+              "email": "Keshav.Paliwal@punktech.in",
               "availableLanguage": ["English", "Hindi", "Marathi"]
             },
             "sameAs": [
-              "https://instagram.com/punk_record",
+              "https://instagram.com/punkr.ecords",
               "https://facebook.com/punktechstudio",
               "https://linkedin.com/company/punktech"
             ],
@@ -267,37 +267,6 @@ const Home = () => {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
               "reviewCount": "127"
-            }
-          })}
-        </script>
-        
-        {/* Structured Data - Service */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Wedding Photography & Videography Services",
-            "description": "Professional wedding photography and videography services in Nagpur including pre-wedding shoots, engagement photography, bridal portraits, and cinematic wedding films.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Punk Records Creative Studio"
-            },
-            "areaServed": {
-              "@type": "Place",
-              "name": "Nagpur, Maharashtra, India"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "Wedding Photography Packages",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Complete Wedding Photography & Videography Package"
-                  }
-                }
-              ]
             }
           })}
         </script>
@@ -438,49 +407,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Client Testimonial Section */}
-        <section className="bg-avocado-gray py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="text-center"
-            >
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">What Our Wedding Couples Say:</h2>
-              <div className="max-w-4xl mx-auto">
-                <p className="text-avocado-text text-lg mb-8 leading-relaxed">
-                  "Punk Records captured our wedding day perfectly! Every emotion, every precious moment was beautifully documented. 
-                  Their team was professional, creative, and made us feel so comfortable throughout our special day."
-                </p>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="bg-avocado-dark p-6 rounded-lg border border-rose-300">
-                    <p className="text-rose-300 font-semibold mb-2">WEDDING TESTIMONIAL:</p>
-                    <blockquote className="text-white text-base italic mb-4">
-                      "The pre-wedding shoot was absolutely magical! They found the most beautiful locations in Nagpur 
-                      and captured our love story in the most artistic way. Our wedding film still gives us goosebumps!"
-                    </blockquote>
-                    <p className="text-rose-300 font-semibold text-sm">
-                      PRIYA & ARJUN SHARMA • MARRIED DECEMBER 2023
-                    </p>
-                  </div>
-                  <div className="bg-avocado-dark p-6 rounded-lg border border-rose-300">
-                    <p className="text-rose-300 font-semibold mb-2">COUPLE REVIEW:</p>
-                    <blockquote className="text-white text-base italic mb-4">
-                      "From our engagement shoot to the wedding day, Punk Records exceeded all expectations. 
-                      The cinematic quality of our wedding film is beyond amazing. Highly recommended!"
-                    </blockquote>
-                    <p className="text-rose-300 font-semibold text-sm">
-                      SNEHA & RAHUL JOSHI • MARRIED FEBRUARY 2024
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </Motion.div>
-          </div>
-        </section>
-
         {/* Wedding Photography & Videography Section */}
         <section className="bg-gradient-to-br from-rose-500/10 to-avocado-dark py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -490,9 +416,9 @@ const Home = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Wedding Photography & Videography Nagpur</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Wedding Photography & Videography India</h1>
               <p className="text-avocado-text text-xl mb-8 max-w-3xl mx-auto">
-                Nagpur's premier wedding photography and videography studio. We specialize in capturing your love story with 
+                India's premier wedding photography and videography studio. We specialize in capturing your love story with 
                 cinematic excellence, artistic vision, and attention to every precious detail of your special day.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -655,67 +581,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Pricing Section */}
-        <section className="bg-avocado-gray py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="text-center"
-            >
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
-                Wedding Photography & Videography Packages
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <div className="bg-avocado-dark p-8 rounded-lg border border-rose-300">
-                  <h3 className="text-rose-300 text-xl font-bold mb-4">Essential Wedding Package</h3>
-                  <p className="text-3xl font-bold text-white mb-2">₹75,000</p>
-                  <p className="text-avocado-text mb-6">Complete Coverage</p>
-                  <ul className="text-avocado-text text-left space-y-2">
-                    <li>• 6 Hours Wedding Photography</li>
-                    <li>• 300+ Edited Photos</li>
-                    <li>• Online Gallery</li>
-                    <li>• Basic Wedding Highlights Video</li>
-                    <li>• 2 Photographers</li>
-                  </ul>
-                </div>
-                <div className="bg-avocado-dark p-8 rounded-lg border-2 border-rose-500 relative">
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-rose-500 text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
-                  </div>
-                  <h3 className="text-rose-300 text-xl font-bold mb-4 mt-4">Premium Wedding Package</h3>
-                  <p className="text-3xl font-bold text-white mb-2">₹1,25,000</p>
-                  <p className="text-avocado-text mb-6">Full Day Coverage</p>
-                  <ul className="text-avocado-text text-left space-y-2">
-                    <li>• 10 Hours Wedding Photography</li>
-                    <li>• 500+ Edited Photos</li>
-                    <li>• Cinematic Wedding Film</li>
-                    <li>• Pre-Wedding Shoot (4 Hours)</li>
-                    <li>• 3 Photographers + Videographer</li>
-                    <li>• Premium Album (50 Pages)</li>
-                  </ul>
-                </div>
-                <div className="bg-avocado-dark p-8 rounded-lg border border-rose-300">
-                  <h3 className="text-rose-300 text-xl font-bold mb-4">Luxury Wedding Package</h3>
-                  <p className="text-3xl font-bold text-white mb-2">₹2,00,000</p>
-                  <p className="text-avocado-text mb-6">Multi-Day Coverage</p>
-                  <ul className="text-avocado-text text-left space-y-2">
-                    <li>• 3 Days Wedding Coverage</li>
-                    <li>• 800+ Edited Photos</li>
-                    <li>• Feature-Length Wedding Film</li>
-                    <li>• Pre-Wedding + Engagement Shoot</li>
-                    <li>• 4 Photographers + 2 Videographers</li>
-                    <li>• Luxury Album + USB Drive</li>
-                    <li>• Drone Coverage</li>
-                  </ul>
-                </div>
-              </div>
-            </Motion.div>
-          </div>
-        </section>
-
         {/* Comprehensive SEO Services Section */}
         <section className="bg-gradient-to-br from-avocado-green/10 to-avocado-dark py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -726,9 +591,9 @@ const Home = () => {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Complete Creative Services in Nagpur Maharashtra</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Complete Creative Services Across India</h2>
               <p className="text-avocado-text text-xl mb-8 max-w-4xl mx-auto">
-                Premier wedding photography studio, music production facility, web development company, and digital marketing agency serving Nagpur, Wardha, Chandrapur, Gondia, Bhandara, Amravati, Akola, Yavatmal, and Gadchiroli.
+                Premier content creation studio, music production facility, web development company, and digital marketing agency serving clients across India with professional creative solutions.
               </p>
             </Motion.div>
 
@@ -744,7 +609,7 @@ const Home = () => {
               >
                 <h3 className="text-rose-300 font-bold text-xl mb-4">Wedding Photography Services</h3>
                 <ul className="text-avocado-text space-y-1 text-sm">
-                  <li>• Wedding Photographer Nagpur • Shaadi Photographer</li>
+                  <li>• Wedding Photographer India • Shaadi Photographer</li>
                   <li>• Marriage Photographer • Vivah Photography</li>
                   <li>• Candid Wedding Photography • Pre Wedding Photoshoot</li>
                   <li>• Mehendi Photography • Haldi Photography</li>
@@ -764,7 +629,7 @@ const Home = () => {
               >
                 <h3 className="text-orange-300 font-bold text-xl mb-4">Music Studio Services</h3>
                 <ul className="text-avocado-text space-y-1 text-sm">
-                  <li>• Music Studio Nagpur • Recording Studio</li>
+                  <li>• Music Studio India • Recording Studio</li>
                   <li>• Song Recording • Album Recording</li>
                   <li>• Bollywood Music Recording • Classical Music</li>
                   <li>• Voice Over Recording • Dubbing Studio</li>
@@ -784,7 +649,7 @@ const Home = () => {
               >
                 <h3 className="text-blue-300 font-bold text-xl mb-4">Web Development Services</h3>
                 <ul className="text-avocado-text space-y-1 text-sm">
-                  <li>• Web Development Nagpur • Website Design</li>
+                  <li>• Web Development India • Website Design</li>
                   <li>• Ecommerce Development • Mobile App Development</li>
                   <li>• WordPress Development • Custom Websites</li>
                   <li>• React Development • PHP Development</li>
@@ -804,10 +669,10 @@ const Home = () => {
               >
                 <h3 className="text-green-300 font-bold text-xl mb-4">Digital Marketing Services</h3>
                 <ul className="text-avocado-text space-y-1 text-sm">
-                  <li>• Digital Marketing Nagpur • SEO Services</li>
+                  <li>• Digital Marketing India • SEO Services</li>
                   <li>• Social Media Marketing • Google Ads</li>
                   <li>• Facebook Marketing • Instagram Marketing</li>
-                  <li>• Local SEO Nagpur • Content Marketing</li>
+                  <li>• Local SEO India • Content Marketing</li>
                   <li>• YouTube Marketing • Email Marketing</li>
                   <li>• Online Reputation Management • PPC</li>
                   <li>• Restaurant Marketing • Real Estate Marketing</li>
@@ -824,7 +689,7 @@ const Home = () => {
               >
                 <h3 className="text-purple-300 font-bold text-xl mb-4">Graphic Design Services</h3>
                 <ul className="text-avocado-text space-y-1 text-sm">
-                  <li>• Logo Design Nagpur • Graphic Designer</li>
+                  <li>• Logo Design India • Graphic Designer</li>
                   <li>• Brand Identity Design • Business Card Design</li>
                   <li>• Brochure Design • Flyer Design</li>
                   <li>• Social Media Design • Instagram Post Design</li>
@@ -844,7 +709,7 @@ const Home = () => {
               >
                 <h3 className="text-cyan-300 font-bold text-xl mb-4">Video Production Services</h3>
                 <ul className="text-avocado-text space-y-1 text-sm">
-                  <li>• Video Production Nagpur • Corporate Videos</li>
+                  <li>• Video Production India • Corporate Videos</li>
                   <li>• Commercial Video Production • Product Videos</li>
                   <li>• Event Videography • Conference Coverage</li>
                   <li>• YouTube Video Editing • Social Media Videos</li>
@@ -863,20 +728,20 @@ const Home = () => {
               viewport={{ once: true }}
               className="text-center"
             >
-              <h3 className="text-3xl font-bold text-avocado-green mb-6">Serving All of Nagpur & Maharashtra</h3>
+              <h3 className="text-3xl font-bold text-avocado-green mb-6">Serving Clients Across India</h3>
               <div className="bg-avocado-dark p-6 rounded-lg border border-avocado-green mb-8">
                 <p className="text-avocado-text mb-4">
-                  Professional creative services across Civil Lines Nagpur, Sitabuldi, Dharampeth, Sadar, Itwari, Kamptee, Hingna, Katol and surrounding areas including Wardha, Chandrapur, Gondia, Bhandara, Amravati, Akola, Yavatmal, Gadchiroli
+                  Professional creative services available across India including major cities like Mumbai, Delhi, Bangalore, Hyderabad, Chennai, Pune, Kolkata, Ahmedabad, Jaipur, and all other cities and regions.
                 </p>
                 <div className="flex flex-wrap justify-center gap-2">
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Civil Lines</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Sitabuldi</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Dharampeth</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Sadar</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Itwari</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Kamptee</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Hingna</span>
-                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Katol</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Mumbai</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Delhi</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Bangalore</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Hyderabad</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Chennai</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Pune</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">Kolkata</span>
+                  <span className="bg-avocado-green/20 text-avocado-green px-3 py-1 rounded-full text-xs">All Over India</span>
                 </div>
               </div>
               

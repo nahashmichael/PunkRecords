@@ -33,7 +33,7 @@ const PhotoVideo = () => {
   const services = [
     {
       name: "Wedding Photography & Videography",
-      description: "Premier wedding photography and cinematic videography services in Nagpur",
+      description: "Premier wedding photography and cinematic videography services across India",
       features: ["Candid Wedding Photography", "Traditional Wedding Photography", "Cinematic Wedding Films", "Drone Wedding Coverage", "Wedding Highlights Video", "Same Day Editing"]
     },
     {
@@ -55,19 +55,19 @@ const PhotoVideo = () => {
   return (
     <>
       <Helmet>
-        <title>Wedding Photography & Videography Nagpur | Best Wedding Photographers | Punk Records</title>
+        <title>Wedding Photography & Videography India | Best Wedding Photographers | Punk Records</title>
         <meta 
           name="description" 
-          content="Premier wedding photography & videography services in Nagpur. Cinematic wedding films, pre-wedding shoots, engagement photography, and destination wedding coverage. Book Nagpur's top wedding photographers." 
+          content="Premier wedding photography & videography services across India. Cinematic wedding films, pre-wedding shoots, engagement photography, and destination wedding coverage. Book India's top wedding photographers." 
         />
         <meta 
           name="keywords" 
-          content="wedding photographer nagpur, wedding photography nagpur, shaadi photographer nagpur, marriage photographer nagpur, wedding videographer nagpur, wedding videography nagpur, best wedding photographer nagpur, candid wedding photographer nagpur, pre wedding photographer nagpur, destination wedding photographer nagpur, shaadi ka photographer nagpur, vivah photographer nagpur, marriage ka photographer nagpur, dulhan photographer nagpur, dulha dulhan photographer nagpur, mangalashtak photographer nagpur, lagan photographer nagpur, byah photographer nagpur, mehendi photographer nagpur, haldi photographer nagpur, sangam photographer nagpur, engagement photographer nagpur, ring ceremony photographer nagpur, reception photographer nagpur, baraat photographer nagpur, vidai photographer nagpur, sagai photographer nagpur, tilak ceremony photographer nagpur, candid wedding photography nagpur, traditional wedding photography nagpur, cinematic wedding videography nagpur, documentary wedding photography nagpur, photojournalistic wedding photography nagpur, artistic wedding photography nagpur, vintage wedding photography nagpur, contemporary wedding photography nagpur, pre wedding photoshoot nagpur, couple photoshoot nagpur, maternity photoshoot nagpur, baby photoshoot nagpur, family portrait photographer nagpur, bridal photoshoot nagpur, groom photoshoot nagpur, save the date photoshoot nagpur, anniversary photoshoot nagpur, drone wedding photography nagpur, 4k wedding videography nagpur, same day edit wedding video nagpur, wedding highlight video nagpur, wedding album design nagpur, wedding photo editing nagpur, wedding video editing nagpur, outdoor wedding photographer nagpur, destination wedding photographer india, palace wedding photographer nagpur, garden wedding photographer nagpur, beach wedding photographer goa, hill station wedding photographer, resort wedding photographer nagpur, affordable wedding photographer nagpur, cheap wedding photographer nagpur, budget wedding photography nagpur, wedding photography packages nagpur, wedding photography price nagpur, low cost wedding photographer nagpur, civil lines nagpur, sitabuldi nagpur, dharampeth nagpur, sadar nagpur, itwari nagpur, kamptee nagpur, hingna nagpur, katol nagpur, wardha, chandrapur, gondia, bhandara, amravati, akola, yavatmal, gadchiroli, punktech wedding, punk records wedding photography"
+          content="wedding photographer india, wedding photography india, shaadi photographer india, marriage photographer india, wedding videographer india, wedding videography india, best wedding photographer india, candid wedding photographer india, pre wedding photographer india, destination wedding photographer india, wedding photography mumbai, wedding photography delhi, wedding photography bangalore, wedding photography hyderabad, wedding photography chennai, wedding photography pune, wedding photography kolkata, wedding photography ahmedabad, wedding photography jaipur, candid wedding photography india, traditional wedding photography india, cinematic wedding videography india, documentary wedding photography india, photojournalistic wedding photography india, artistic wedding photography india, vintage wedding photography india, contemporary wedding photography india, pre wedding photoshoot india, couple photoshoot india, drone wedding photography india, 4k wedding videography india, same day edit wedding video india, wedding highlight video india, wedding album design india, wedding photo editing india, wedding video editing india, outdoor wedding photographer india, destination wedding photographer india, palace wedding photographer india, garden wedding photographer india, beach wedding photographer goa, hill station wedding photographer, resort wedding photographer india, affordable wedding photographer india, budget wedding photography india, wedding photography packages india, wedding photography price india, punktech wedding, punk records wedding photography"
         />
         
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Best Wedding Photography & Videography in Nagpur | Punk Records Creative Studio" />
-        <meta property="og:description" content="Capture your dream wedding with Nagpur's premier wedding photography & videography studio. Cinematic storytelling meets artistic excellence." />
+        <meta property="og:title" content="Best Wedding Photography & Videography in India | Punk Records Creative Studio" />
+        <meta property="og:description" content="Capture your dream wedding with India's premier wedding photography & videography studio. Cinematic storytelling meets artistic excellence." />
         <meta property="og:type" content="service" />
         <meta property="og:url" content="https://punktech.in/services/photo-video" />
         <meta property="og:image" content="https://punktech.in/wedding-portfolio-hero.jpg" />
@@ -77,14 +77,14 @@ const PhotoVideo = () => {
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@punktechstudio" />
-        <meta name="twitter:title" content="Wedding Photography & Videography Nagpur | Punk Records" />
-        <meta name="twitter:description" content="Premier wedding photography and videography services in Nagpur. Cinematic wedding films and artistic photography." />
+        <meta name="twitter:title" content="Wedding Photography & Videography India | Punk Records" />
+        <meta name="twitter:description" content="Premier wedding photography and videography services across India. Cinematic wedding films and artistic photography." />
         <meta name="twitter:image" content="https://punktech.in/wedding-portfolio-hero.jpg" />
         
         {/* Additional SEO Meta Tags */}
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="geo.region" content="IN-MH" />
-        <meta name="geo.placename" content="Nagpur" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
         <link rel="canonical" href="https://punktech.in/services/photo-video" />
         
         {/* Structured Data for Wedding Photography Service */}
@@ -92,8 +92,8 @@ const PhotoVideo = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Wedding Photography & Videography Services Nagpur",
-            "description": "Professional wedding photography and videography services in Nagpur including pre-wedding shoots, engagement photography, bridal portraits, and cinematic wedding films.",
+            "name": "Wedding Photography & Videography Services India",
+            "description": "Professional wedding photography and videography services across India including pre-wedding shoots, engagement photography, bridal portraits, and cinematic wedding films.",
             "provider": {
               "@type": "Organization",
               "name": "Punk Records Creative Studio",
@@ -106,11 +106,11 @@ const PhotoVideo = () => {
                 "addressCountry": "IN"
               },
               "telephone": "+91-74477-76766",
-              "email": "Vansh.Rajak@punktech.in"
+              "email": "Keshav.Paliwal@punktech.in"
             },
             "areaServed": {
-              "@type": "Place",
-              "name": "Nagpur, Maharashtra, India"
+              "@type": "Country",
+              "name": "India"
             },
             "serviceType": "Wedding Photography",
             "category": "Photography Services",
@@ -181,7 +181,7 @@ const PhotoVideo = () => {
               }
             ],
             "sameAs": [
-              "https://instagram.com/punk_record",
+              "https://instagram.com/punkr.ecords",
               "https://facebook.com/punktechstudio"
             ]
           })}
@@ -202,10 +202,10 @@ const PhotoVideo = () => {
                 <CameraIcon className="w-10 h-10 text-white" />
               </div>
               <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-rose-400 to-pink-600 bg-clip-text text-transparent">
-                Wedding Photography & Videography Nagpur
+                Wedding Photography & Videography India
               </h1>
               <p className="text-xl md:text-2xl text-red-100 max-w-4xl mx-auto leading-relaxed">
-                Nagpur's premier wedding photography studio capturing your love story with cinematic excellence and artistic vision
+                India's premier wedding photography studio capturing your love story with cinematic excellence and artistic vision
               </p>
             </Motion.div>
 
@@ -240,7 +240,7 @@ const PhotoVideo = () => {
                 Wedding Photography & Videography Services
               </h2>
               <p className="text-xl text-red-100 max-w-3xl mx-auto">
-                Comprehensive wedding photography and videography services covering every aspect of your special day
+                Comprehensive wedding photography and videography services covering every aspect of your special day, available across India
               </p>
             </Motion.div>
 
@@ -353,6 +353,215 @@ const PhotoVideo = () => {
                   </p>
                 </Motion.div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Wedding Testimonials Section */}
+        <section className="relative z-10 py-20 px-4 bg-red-800/10">
+          <div className="max-w-7xl mx-auto">
+            <Motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-red-300">
+                What Our Wedding Couples Say
+              </h2>
+              <p className="text-xl text-red-100 max-w-3xl mx-auto">
+                Real stories from couples who trusted us to capture their special day
+              </p>
+            </Motion.div>
+
+            <div className="max-w-4xl mx-auto mb-12">
+              <Motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+              >
+                <p className="text-red-100 text-lg mb-8 leading-relaxed text-center">
+                  "Punk Records captured our wedding day perfectly! Every emotion, every precious moment was beautifully documented. 
+                  Their team was professional, creative, and made us feel so comfortable throughout our special day."
+                </p>
+              </Motion.div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <Motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  viewport={{ once: true }}
+                  className="bg-red-800/20 backdrop-blur-sm rounded-xl p-6 border border-red-500/30"
+                >
+                  <p className="text-red-300 font-semibold mb-2 text-sm">WEDDING TESTIMONIAL:</p>
+                  <blockquote className="text-white text-base italic mb-4 leading-relaxed">
+                    "The pre-wedding shoot was absolutely magical! They found the most beautiful locations in Nagpur 
+                    and captured our love story in the most artistic way. Our wedding film still gives us goosebumps!"
+                  </blockquote>
+                  <p className="text-red-300 font-semibold text-sm">
+                    PRIYA & ARJUN SHARMA • MARRIED DECEMBER 2023
+                  </p>
+                </Motion.div>
+
+                <Motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.4 }}
+                  viewport={{ once: true }}
+                  className="bg-red-800/20 backdrop-blur-sm rounded-xl p-6 border border-red-500/30"
+                >
+                  <p className="text-red-300 font-semibold mb-2 text-sm">COUPLE REVIEW:</p>
+                  <blockquote className="text-white text-base italic mb-4 leading-relaxed">
+                    "From our engagement shoot to the wedding day, Punk Records exceeded all expectations. 
+                    The cinematic quality of our wedding film is beyond amazing. Highly recommended!"
+                  </blockquote>
+                  <p className="text-red-300 font-semibold text-sm">
+                    SNEHA & RAHUL JOSHI • MARRIED FEBRUARY 2024
+                  </p>
+                </Motion.div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Wedding Pricing Section */}
+        <section className="relative z-10 py-20 px-4">
+          <div className="max-w-7xl mx-auto">
+            <Motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-red-300">
+                Wedding Photography & Videography Packages
+              </h2>
+              <p className="text-xl text-red-100 max-w-3xl mx-auto">
+                Choose the perfect package for your special day. All packages include professional editing and online gallery access.
+              </p>
+            </Motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <Motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-red-800/20 backdrop-blur-sm rounded-xl p-8 border border-red-500/30"
+              >
+                <h3 className="text-red-300 text-xl font-bold mb-4">Essential Wedding Package</h3>
+                <p className="text-3xl font-bold text-white mb-2">₹75,000</p>
+                <p className="text-red-200 mb-6 text-sm">Complete Coverage</p>
+                <ul className="text-red-100 text-left space-y-2 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>6 Hours Wedding Photography</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>300+ Edited Photos</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Online Gallery</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Basic Wedding Highlights Video</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>2 Photographers</span>
+                  </li>
+                </ul>
+              </Motion.div>
+
+              <Motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-red-800/20 backdrop-blur-sm rounded-xl p-8 border-2 border-red-500 relative"
+              >
+                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                  <span className="bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
+                </div>
+                <h3 className="text-red-300 text-xl font-bold mb-4 mt-4">Premium Wedding Package</h3>
+                <p className="text-3xl font-bold text-white mb-2">₹1,25,000</p>
+                <p className="text-red-200 mb-6 text-sm">Full Day Coverage</p>
+                <ul className="text-red-100 text-left space-y-2 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>10 Hours Wedding Photography</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>500+ Edited Photos</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Cinematic Wedding Film</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Pre-Wedding Shoot (4 Hours)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>3 Photographers + Videographer</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Premium Album (50 Pages)</span>
+                  </li>
+                </ul>
+              </Motion.div>
+
+              <Motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-red-800/20 backdrop-blur-sm rounded-xl p-8 border border-red-500/30"
+              >
+                <h3 className="text-red-300 text-xl font-bold mb-4">Luxury Wedding Package</h3>
+                <p className="text-3xl font-bold text-white mb-2">₹2,00,000</p>
+                <p className="text-red-200 mb-6 text-sm">Multi-Day Coverage</p>
+                <ul className="text-red-100 text-left space-y-2 text-sm">
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>3 Days Wedding Coverage</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>800+ Edited Photos</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Feature-Length Wedding Film</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Pre-Wedding + Engagement Shoot</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>4 Photographers + 2 Videographers</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Luxury Album + USB Drive</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-400 mr-2">•</span>
+                    <span>Drone Coverage</span>
+                  </li>
+                </ul>
+              </Motion.div>
             </div>
           </div>
         </section>

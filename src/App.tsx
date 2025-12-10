@@ -19,6 +19,8 @@ import Solutions from "./pages/Solutions"
 import Newsroom from "./pages/Newsroom"
 import Team from "./pages/Team"
 import Contact from "./pages/Contact"
+import Privacy from "./pages/Privacy"
+import Terms from "./pages/Terms"
 import WebDev from "./pages/services/WebDev"
 import Music from "./pages/services/Music"
 import PhotoVideo from "./pages/services/PhotoVideo"
@@ -52,6 +54,8 @@ const AppRoutes = () => {
           <Route path="/newsroom" element={<Newsroom />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
       </Suspense>
     </AnimatePresence>

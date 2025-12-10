@@ -60,19 +60,19 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Wedding Photography & Creative Services Nagpur | Punk Records Studio</title>
+        <title>Wedding Photography & Creative Services India | Punk Records Studio</title>
         <meta
           name="description"
-          content="Premier wedding photography studio in Nagpur offering wedding videography, pre-wedding shoots, plus web development, music production, and creative digital services. Complete creative solutions for weddings and businesses."
+          content="Premier wedding photography studio offering wedding videography, pre-wedding shoots, plus web development, music production, and creative digital services across India. Complete creative solutions for weddings and businesses."
         />
         <meta
           name="keywords"
-          content="wedding photography nagpur, wedding videography nagpur, creative services nagpur, web development nagpur, music production nagpur, graphic design nagpur, social media marketing nagpur, pre-wedding photography, engagement photography, bridal photography, wedding services nagpur, punktech services, punk records services"
+          content="wedding photography india, wedding videography india, creative services india, web development india, music production india, graphic design india, social media marketing india, pre-wedding photography, engagement photography, bridal photography, wedding services india, punktech services, punk records services"
         />
         
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Wedding Photography & Creative Services Nagpur | Punk Records Studio" />
-        <meta property="og:description" content="Complete creative services with specialty in wedding photography and videography. Professional services for weddings and businesses in Nagpur." />
+        <meta property="og:title" content="Wedding Photography & Creative Services India | Punk Records Studio" />
+        <meta property="og:description" content="Complete creative services with specialty in wedding photography and videography. Professional services for weddings and businesses across India." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://punktech.in/services" />
         <meta property="og:image" content="https://punktech.in/services-overview.jpg" />
@@ -82,14 +82,14 @@ const Services = () => {
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@punktechstudio" />
-        <meta name="twitter:title" content="Wedding Photography & Creative Services Nagpur" />
-        <meta name="twitter:description" content="Premier wedding photography studio and creative services in Nagpur" />
+        <meta name="twitter:title" content="Wedding Photography & Creative Services India" />
+        <meta name="twitter:description" content="Premier wedding photography studio and creative services across India" />
         <meta name="twitter:image" content="https://punktech.in/services-overview.jpg" />
         
         {/* Additional SEO Meta Tags */}
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="geo.region" content="IN-MH" />
-        <meta name="geo.placename" content="Nagpur" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
         <link rel="canonical" href="https://punktech.in/services" />
         
         {/* Structured Data for Service Catalog */}
@@ -98,7 +98,7 @@ const Services = () => {
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": "Wedding Photography & Creative Services",
-            "description": "Complete range of wedding photography and creative services in Nagpur",
+            "description": "Complete range of wedding photography and creative services across India",
             "numberOfItems": 6,
             "itemListElement": [
               {
@@ -183,7 +183,7 @@ const Services = () => {
             "name": "Punk Records Creative Studio",
             "url": "https://punktech.in",
             "logo": "https://punktech.in/logo.png",
-            "description": "Premier wedding photography studio and creative services company in Nagpur offering professional photography, videography, web development, and digital marketing services.",
+            "description": "Premier wedding photography studio and creative services company offering professional photography, videography, web development, and digital marketing services across India.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Nagpur",
@@ -194,7 +194,7 @@ const Services = () => {
               "@type": "ContactPoint",
               "telephone": "+91-74477-76766",
               "contactType": "customer service",
-              "email": "Vansh.Rajak@punktech.in"
+              "email": "Keshav.Paliwal@punktech.in"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",

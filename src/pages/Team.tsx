@@ -3,6 +3,7 @@ import MatrixBackground from "../components/MatrixBackground"
 
 interface TeamMember {
   name: string
+  pseudonym?: string
   role: string
   specialties: string[]
   email?: string
@@ -13,41 +14,38 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Sahil Singh",
+    name: "Swaraj Dhakate",
+    pseudonym: "Pythagoras",
     role: "Creative Director 1",
     specialties: ["Video Editing", "Content Creation", "Post-Production"],
-    description: "Leading our creative vision with expertise in video editing and content creation. Sahil brings innovative storytelling techniques to every project.",
+    description: "Leading our creative vision with expertise in video editing and content creation. Swaraj (Pythagoras) brings innovative storytelling techniques to every project.",
     image: "🎬"
   },
   {
     name: "Yuvi (Durgesh) Sahib",
+    pseudonym: "Shaka",
     role: "Creative Director 2", 
     specialties: ["Photography", "Videography", "Visual Arts"],
-    description: "Master of visual storytelling through photography and videography. Yuvi captures moments that speak volumes and creates stunning visual narratives.",
+    description: "Master of visual storytelling through photography and videography. Yuvi (Shaka) captures moments that speak volumes and creates stunning visual narratives.",
     image: "📸"
   },
   {
     name: "Nahash Michael",
+    pseudonym: "Stellar",
     role: "Creative Director 3",
     specialties: ["Music Production", "Web Development", "Client Engagement"],
-    description: "Multi-talented director handling music production, technical development, and client relationships. Nahash ensures seamless project delivery and client satisfaction.",
+    description: "Multi-talented director handling music production, technical development, and client relationships. Nahash (Stellar) ensures seamless project delivery and client satisfaction.",
     image: "🎵"
   },
   {
-    name: "Shivani Michael",
-    role: "Head of Communication and Talent Acquisition",
-    specialties: ["Team Building", "Communication", "HR Management"],
-    description: "Building and nurturing our talented team while maintaining excellent communication across all departments. Shivani ensures we have the right people in the right roles.",
-    image: "🤝"
-  },
-  {
-    name: "Vansh Rajak",
-    role: "Senior Client Coordinator",
-    specialties: ["Client Relations", "Project Management", "Business Development"],
-    email: "Vansh.Rajak@punktech.in",
+    name: "Keshav Paliwal",
+    pseudonym: "Atlas",
+    role: "Script Writer, Screenplay Writer, Lyricist & Story Writer",
+    specialties: ["Script Writing", "Screenplay", "Lyrics", "Story Writing"],
+    email: "Keshav.Paliwal@punktech.in",
     phone: "+91 74477 76766",
-    description: "Your primary point of contact for all projects. Vansh ensures smooth communication and successful project outcomes from start to finish.",
-    image: "📋"
+    description: "Creative writer specializing in scripts, screenplays, lyrics, and storytelling. Keshav (Atlas) crafts compelling narratives that bring projects to life through powerful words and engaging stories.",
+    image: "✍️"
   }
 ]
 
@@ -100,6 +98,11 @@ const Team = () => {
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-avocado-green mb-2">
                         {member.name}
+                        {member.pseudonym && (
+                          <span className="text-3xl md:text-4xl font-black tracking-wider text-avocado-light-green ml-3 font-mono uppercase">
+                            ({member.pseudonym})
+                          </span>
+                        )}
                       </h3>
                       <p className="text-lg text-gray-300 mb-4 font-semibold">
                         {member.role}
@@ -226,7 +229,7 @@ const Team = () => {
                 Start a Project
               </button>
               <a 
-                href="https://instagram.com/punk_record" 
+                href="https://instagram.com/punkr.ecords" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-secondary px-8 py-4 text-lg flex items-center justify-center space-x-2"

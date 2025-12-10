@@ -111,13 +111,13 @@ User Agent: ${userAgent}`;
             // Log the attempt
             context.log.info("Attempting to send email with Resend", {
                 from: "Punk Records <contact@punktech.in>",
-                to: ["Vansh.Rajak@punktech.in"],
+                to: ["Keshav.Paliwal@punktech.in"],
                 subject: `New Contact Form Submission`
             });
 
             const emailResult = await resend.emails.send({
                 from: "Punk Records <contact@punktech.in>",
-                to: ["Vansh.Rajak@punktech.in"],
+                to: ["Keshav.Paliwal@punktech.in"],
                 subject: `New Contact Form Submission`,
                 text: emailContent,
                 reply_to: email
